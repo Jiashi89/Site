@@ -1,0 +1,46 @@
+#header {
+    height: 200px;
+    background: url("../img/metal.jpg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    float: left;
+}
+
+.logotext {
+    float: right;
+    padding: top;
+}
+
+.menu {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.menu a {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+    background: red;
+    border-right: 1px white dotted;
+}
+
+.menu a:hover {
+    color: red;
+    background: white;
+}
+
+.footer {
+    text-align: center;
+    background: grey;
+    margin-top: 10px;
+    padding: 40px 0;
+}
