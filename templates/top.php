@@ -1,6 +1,8 @@
+<?php require_once('config/config.php');?>
 <!DOCTYPE ="html">
 <html>
   <head>
+    <meta charset='utf-8'>
     <title>Test</title>
     <link
       rel="stylesheet"
@@ -44,10 +46,10 @@
     <div class="main">
       <div class="menu">
         <a href="/">Главная</a>
-        <a href="#">О компании</a>
-        <a href="#">Услуги</a>
-        <a href="#">Товары</a>
-        <a href="#">Вакансии</a>
+        <a href="static.php?url=about">О компании</a>
+        <a href="static.php?url=services">Услуги</a>
+        <a href="static.php?url=products">Товары</a>
+        <a href="static.php?url=jobs">Вакансии</a>
         <a href="/contact.php">Контакты</a>
       </div>
     </div>
