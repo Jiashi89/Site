@@ -1,0 +1,63 @@
+#header {
+  height: 200px;
+  background: url("../img/heder.jpg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+}
+
+.logotext {
+  float: right;
+  padding: top;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.textField,
+.passField {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  color: #ff6d37;
+}
+
+.menu {
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.menu a {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  color: white;
+  background: red;
+  border-right: 1px white dotted;
+}
+
+.menu a:hover {
+  color: red;
+  background: white;
+}
+
+a {
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  background: rgb(9, 152, 235);
+  margin-top: 10px;
+  padding: 40px 0;
+  color: aliceblue;
+}
