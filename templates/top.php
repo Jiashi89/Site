@@ -39,9 +39,10 @@
               class="passField"
             />
           </p>
-          <p><input type="submit" value="Войти" /></p>
-        </form>
-      </div>
+          <p><input type="submit" value="Войти" />
+          <input type="submit" value="Авторизация" /></p>
+          <form>
+        </div>
     </header>
     <div class="main">
       <div class="menu">

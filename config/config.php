@@ -1,6 +1,6 @@
 <?php
 $dblocation = 'localhost'; //адрес сервера
-$dbname = 'base'; //имя базы
+$dbname = 'homebase'; //имя базы
 $dbuser = 'root'; //имя авторизации базы
 $dbpassword = ''; //пароль авторизации базы
 $dbconnect = mysqli_connect($dblocation, $dbuser, $dbpassword, $dbname); //подключение БД (важно соблюдать последовательность в скобках)
